@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Dashboard</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f1f5f9;
+        }
+
+        header {
+            background: #172554;
+            color: white;
+            padding: 22px 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .welcome {
+            padding: 35px 6%;
+        }
+
+        .welcome h1 {
+            color: #1e3a8a;
+            margin-bottom: 10px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            padding: 10px 6%;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            flex: 1;
+            min-width: 200px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            color: #2563eb;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #64748b;
+            line-height: 1.7;
+        }
+
+        .details {
+            background: white;
+            margin: 30px 6%;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        .details h2 {
+            color: #1e3a8a;
+            margin-bottom: 20px;
+        }
+
+        .details p {
+            margin: 15px 0;
+        }
+
+        footer {
+            background: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>🎓 Student Portal</h2>
+        <a href="index.html">Logout</a>
+    </header>
+
+    <section class="welcome">
+        <h1>Welcome, Student! 👋</h1>
+        <p>Welcome to your Student Management Dashboard.</p>
+    </section>
+
+    <section class="cards">
+
+        <div class="card">
+            <h3>👨‍🎓 Student Profile</h3>
+            <p>View and manage your personal information.</p>
+        </div>
+
+        <div class="card">
+            <h3>📚 My Courses</h3>
+            <p>Check your enrolled courses and academic details.</p>
+        </div>
+
+        <div class="card">
+            <h3>📊 Academic Records</h3>
+            <p>View your academic performance and progress.</p>
+        </div>
+
+    </section>
+
+    <section class="details">
+
+        <h2>Student Information</h2>
+
+        <p><b>Name:</b> Demo Student</p>
+        <p><b>Email:</b> student@example.com</p>
+        <p><b>Course:</b> Computer Science</p>
+        <p><b>Status:</b> Active</p>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Student Management Portal</p>
+    </footer>
+
+</body>
+</html>

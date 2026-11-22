@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management Portal</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f7fc;
+            color: #26334d;
+        }
+
+        nav {
+            background: #172554;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        nav h2 {
+            font-size: 23px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 90px 20px;
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: white;
+            color: #1e40af;
+            padding: 13px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 8px;
+        }
+
+        .btn:hover {
+            background: #dbeafe;
+        }
+
+        .container {
+            padding: 55px 8%;
+            text-align: center;
+        }
+
+        .container h2 {
+            margin-bottom: 35px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 35px 25px;
+            width: 260px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            color: #1d4ed8;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #64748b;
+            line-height: 1.6;
+        }
+
+        footer {
+            background: #172554;
+            color: white;
+            text-align: center;
+            padding: 22px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>🎓 Student Portal</h2>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+
+        <h1>Welcome to Student Management System</h1>
+
+        <p>
+            Manage student information, academic records
+            and courses in one place.
+        </p>
+
+        <a href="login.html" class="btn">Student Login</a>
+
+        <a href="register.html" class="btn">Register Now</a>
+
+    </section>
+
+    <section class="container" id="services">
+
+        <h2>Our Services</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>👨‍🎓 Student Registration</h3>
+                <p>Register new students easily.</p>
+            </div>
+
+            <div class="card">
+                <h3>📚 Course Management</h3>
+                <p>Manage courses and academic information.</p>
+            </div>
+
+            <div class="card">
+                <h3>📊 Student Dashboard</h3>
+                <p>View student details and academic records.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container" id="about">
+
+        <h2>About Our Portal</h2>
+
+        <p>
+            Our Student Management Portal provides a simple
+            and organized way to manage student information.
+        </p>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Student Management Portal | AWS DevOps Project</p>
+    </footer>
+
+</body>
+</html>
