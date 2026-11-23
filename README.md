@@ -34,21 +34,7 @@ The application is designed to provide reliable access, handle incoming traffic,
 
 ## Architecture Overview
 
-The application uses AWS infrastructure to provide high availability, traffic distribution, monitoring, and recovery.
-```mermaid
-flowchart TD
-    A[Users] --> B[AWS Application Load Balancer]
-    B --> C[Target Group]
-    C --> D[Auto Scaling Group]
-    D --> E[EC2 Instance 1]
-    D --> F[EC2 Instance 2]
-    E --> G[Docker Container]
-    F --> H[Docker Container]
-    G --> I[Web Application]
-    H --> I
-    J[Jenkins CI/CD] --> E
-    K[Terraform] --> D
-    L[CloudWatch] --> M[SNS Notifications]
+The application uses AWS infrastructure to provide high availability, traffic distribution, monitoring, and recovery
 
 **Architecture Flow:**
 
