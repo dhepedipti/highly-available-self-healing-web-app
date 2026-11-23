@@ -62,6 +62,34 @@ Supporting services:
 ## Project Outcome
 
 Successfully developed a cloud-based web application deployment project using AWS and DevOps practices, focusing on availability, scalability, automation, and monitoring.
+## Project Screenshots
+
+### Screenshot 1
+![Project Screenshot](Screenshot%20(84).png)
+
+### Screenshot 2
+![Project Screenshot](Screenshot%20(85).png)
+
+### Screenshot 3
+![Project Screenshot](Screenshot%20(86).png)
+
+### Screenshot 4
+![Project Screenshot](Screenshot%20(87).png)
+
+### Screenshot 5
+![Project Screenshot](Screenshot%20(88).png)
+
+### Screenshot 6
+![Project Screenshot](Screenshot%20(89).png)
+
+### Screenshot 7
+![Project Screenshot](Screenshot%20(90).png)
+
+### Screenshot 8
+![Project Screenshot](Screenshot%20(91).png)
+
+### Screenshot 9
+![Project Screenshot](Screenshot%20(92).png)
 
 ## Author
 
