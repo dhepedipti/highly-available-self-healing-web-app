@@ -12,9 +12,6 @@ The application is designed to provide reliable access, handle incoming traffic,
 - Configure Auto Scaling for handling changing workloads.
 - Use Docker for application containerization.
 - Implement CI/CD using Jenkins.
-- Automate infrastructure provisioning using Terraform.
-- Monitor application health using Amazon CloudWatch.
-- Configure SNS notifications for alerts.
 
 ## Technologies Used
 
@@ -25,11 +22,6 @@ The application is designed to provide reliable access, handle incoming traffic,
 | Auto Scaling | Automatic instance scaling |
 | Docker | Containerization |
 | Jenkins | CI/CD automation |
-| Terraform | Infrastructure as Code |
-| AWS RDS | Database service |
-| Amazon S3 | Object storage |
-| CloudWatch | Monitoring |
-| SNS | Notifications |
 | HTML & CSS | Frontend development |
 
 ## Architecture Overview
@@ -42,10 +34,6 @@ User → Application Load Balancer → Target Group → EC2 Instances → Docker
 
 Supporting services:
 - Auto Scaling
-- CloudWatch
-- SNS
-- RDS
-- S3
 - Jenkins
 - Terraform
 
